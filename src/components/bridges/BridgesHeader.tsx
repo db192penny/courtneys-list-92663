@@ -1,15 +1,12 @@
 export function BridgesHeader() {
   return (
     <div className="text-center mb-8">
-      <div className="flex items-center justify-center gap-3">
+      <div className="flex items-center justify-center">
         <img 
-          src="/courtney-list-header-logo.png" 
-          alt="The Bridges" 
-          className="w-12 h-12 rounded-full object-cover"
+          src="/bridgelist-logo.png" 
+          alt="BridgeList - The Bridges" 
+          className="h-16 md:h-20 object-contain"
         />
-        <h1 className="text-2xl md:text-3xl font-bold text-foreground">
-          THE BRIDGES
-        </h1>
       </div>
     </div>
   );
